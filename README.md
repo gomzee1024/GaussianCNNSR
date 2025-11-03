@@ -1,17 +1,3 @@
-To use `DIV2K`, you must:
-
-1.  **Download it yourself** from the official source (like the [CVL at ETH Zurich](httpsa://data.vision.ee.ethz.ch/cvl/DIV2K/)). You typically need the `DIV2K_train_HR` (high-resolution) images.
-2.  Write a custom PyTorch `Dataset` class to load these images from the folder you downloaded them to.
-
-**My plan:**
-I will provide a set of files that show you the *professional* way to solve this.
-
-1.  **A `README.md` file:** This text file will contain detailed answers to all your theory questions (what GS is, how the papers use it, metrics, etc.).
-2.  **A `dataset.py` file:** This will contain the custom `CustomImageDataset` class to solve your `DIV2K` problem.
-3.  **A `gaussian_model.py` file:** This will define the core neural network and the Gaussian renderer.
-4.  **A `train.py` file:** A script to *train* the model.
-5.  **A `render.py` file:** A separate script to *use* the trained model for super-resolution.
-
 ### **Instructions to Run the Code**
 
 **Step 1: Download the `DIV2K` Dataset**
