@@ -1,3 +1,4 @@
+
 ### **Instructions to Run the Code**
 
 **Step 1: Download the `DIV2K` Dataset**
@@ -8,17 +9,17 @@
 4.  Unzip all the `.png` images from the download directly into the `my_project/DIV2K_train_HR` folder.
 5.  Place the 4 Python files (`dataset.py`, `gaussian_model.py`, `train.py`, `render.py`) inside the `my_project` folder.
 
-Your folder structure should look like this:
-my\_project/
-|-- DIV2K\_train\_HR/
-|   |-- 0001.png
-|   |-- 0002.png
-|   |-- ...
-|   |-- 0800.png
-|-- dataset.py
-|-- gaussian\_model.py
-|-- train.py
-|-- render.py
+Your folder structure should look like this:  
+my\_project/  
+|-- DIV2K\_train\_HR/  
+|   |-- 0001.png  
+|   |-- 0002.png  
+|   |-- ...  
+|   |-- 0800.png  
+|-- dataset.py  
+|-- gaussian\_model.py  
+|-- train.py  
+|-- render.py  
 
 **Step 2: Train the Model**
 Open your terminal or command prompt, navigate to the `my_project` folder, and run:
